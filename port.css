@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+font-family:'Monstserrat' ,sans-serif;
+}
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image:url(de2.jpg) ;
+    background-size: cover;
+    background-position:center ;
+}
+h1{
+    margin: 20px 0px 20px 0px;
+    font-size: 75px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between ;
+    padding: 45px 0px 15px 15px;
+}
+.logo{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor:  pointer;
+}
+span{
+    color: orange;
+}
+ul{
+   list-style-type:none ;
+    display: flex;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size:bold ;
+    text-transform: capitalize;
+    padding: 10px ;
+}
+
+nav ul li a:hover{
+    color: yellowgreen;
+}
+.btn{
+    background-color: yellowgreen;
+    color: white;
+    text-decoration:none ;
+    /* border:2px solid transparent; */
+    font-weight: bold;
+    padding: 10px 5px;
+    border-radius: 30px;
+    margin: 30px 10px 15px 0px;
+}
+ .content{
+    margin: 70px 70px;
+    color:yellowgreen;
+ }
+ .theh3{
+    color:brbown;
+    letter-spacing: 3px;
+    font-size: 35px;
+    }
+ 
+ form{
+    width: 380px;
+    position: relative;
+    display: flex;
+}
+ form input:first-child{ 
+    width: 380px;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid orange;
+    border-radius: 30px;
+    outline: none;
+ }
+ form input:last-child{
+    background-color:orange;
+    padding: 10px 30px;
+    border-radius: 30px;
+    position: absolute;
+    border: none;
+    top:6px;
+    cursor: pointer;
+    right:6px;
+     }
+     .about{
+        width: 100%;
+        padding: 100px 0;
+        background-color: black;
+     }
+     .about .main img{
+        height:400px;
+        width:400px;
+     }
+     .about-tex{
+        width:550px;
+     }
+     .main{
+        width: 1150px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+     }
+     .about-tex h2{
+        color: white;
+        font-size: 75px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+     }
+     .about-tex h5{
+        color:white;
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform:capitalize ;
+     }
+     button{
+        background-color:orange;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 13px 30px;
+        border-radius: 30px;
+      }
+      .points{
+            font-size: 50px;
+            text-align:center;
+            color: blue;
+      }
+      .okwuy{
+            width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 200px;
+             }
+   .dservice{
+      margin: 60px;
+   }
+   .service{
+      display: flex;
+   }
+ .about-tex1{
+   font-size: medium;
+   width: min-content;
+ }
+ .ser article{
+   padding-left: 700px;
+   width: 300px;
+   color: bisque;
+   text-align: center;
+ }
+ .dservice p{
+   width: 250px;
+   color: bisque;
+ }
+ .dservice h3{
+   width: 250px;
+   color: bisque;
+   margin-bottom: 7px;
+   text-align: center;
+   font: size 15px;;
+ }
+ .ser{
+   background-color:rgb(19, 19, 19);
+ }
+.dservice i{
+   font-size: 40px;
+   color: orange;
+}
+.third{
+   height: 100vh;
+    width: 100%;
+    background-color: bisque;
+    background-size: cover;
+    background-position:center ;
+}
+.round{
+   margin-left: 550px;
+   padding-top: 100px;
+   border-radius: 50%;
+}
+.dse{
+   border-radius: 100%;
+   background-color: red;
+   padding: auto;
+   font-size: 6660px;
+}
+ 
+ /* content section ends */
+
+ /* media quries  for phone screen statr here  */
+ 
+ @media (max-width:768px) {
+   nav{
+      display: flex;
+      flex-direction: column;
+   }
+   ul{
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+   }
+   li{
+      padding:10px 2px;
+   }
+   .content{
+      margin:12px 27px;
+      color: white;
+   }
+   h1{
+      font-size: 30px;
+   }
+   .theh3{
+      color: yellowgreen;
+      font-size: 20px;
+      margin-bottom: 20px;
+   }
+   form{
+      width: 200px;
+      position: relative;
+   }
+form input:last-child{
+   background-color: yellowgreen;
+   padding: 10px 30px;
+   border-radius: 30px;
+   position: absolute;
+   border: none;
+   top: 6px;
+   cursor: pointer;
+   right: -63px;  
+}
+.main{
+   margin: 20px 20px;
+   display: block;
+}
+.about-text h2{
+   color: white;
+   font-size: 50px;
+   text-transform: capitalize;
+   margin: 20px 20px;
+}
+.about-tex{
+   padding: 10px 3px;
+}
+.about-tex h5{
+   color: white;
+   letter-spacing: 2px;
+   font-size: 12px;
+   margin-bottom: 25px;
+   text-transform: capitalize;
+}
+ }
+
+  /* media quries  for phone screen end  here  */
+
+    /* media quries  for tablets end  here  */
+
+
+ 
